@@ -14,7 +14,7 @@ public class App {
         String string = input.nextLine();   //Reads the string from the user
 
         int Length = string.length();   //get the length of string
-        if (string.isEmpty())   //using if condition that if the string it empty
+        if (string.isEmpty())   //using if condition that if the user inputs nothing
         {
             System.out.println("Must enter something to count the string!"); //this message will be displayed
         }
